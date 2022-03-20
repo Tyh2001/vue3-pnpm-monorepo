@@ -1,5 +1,15 @@
 # 使用 vue3 + pnpm 从 0 搭建 monorepo 项目
 
+大家好，我是[田同学](https://github.com/Tyh2001)。一位开源组件库作者，有情趣可以加我微信：`VirgoTyh`，一起共同学习。
+
+## 前言
+
+随着 `pnpm` 的出现，目前又出现了一种新生的项目结构，叫 [monorepos](https://fanyi.baidu.com/#mlt/en/monorepo)。
+
+这篇文章将带着大家从 0 开始构建一个简易的 `monorepos` 项目。
+
+下面演示的项目，我放在了 [vue3-pnpm-monorepo](https://github.com/Tyh2001/vue3-pnpm-monorepo) 仓库中。
+
 ## 什么是 monorepo？
 
 在以往的开发中，通常都是一个仓库存放一个项目。比如现在你有三个项目，就需要创建三个远程仓库，如果想要对三个项目进行一下插件或库的版本升级的话，就需要分别对三个项目进行分别的下载，也就是说需要升级三次。
@@ -300,3 +310,11 @@ pnpm i lodash -W
 ```
 
 这样就实现了在所有组件中都可以使用 `lodash` 了。
+
+## 联系我
+
+你可以通过下面方式联系到我：
+
+- 微信：`VirgoTyh`
+- [Github](https://github.com/Tyh2001)
+- [官网首页](https://tianyuhao.cn)
