@@ -105,7 +105,7 @@ pnpm init -y
 }
 ```
 
-- `"private": true` 的意思是：私有的，不会被发布，是管理整个项目，与要发布的 npm 包解耦。详细可参考[这里](https://github.com/stereobooster/package.json#private)。
+- `"private": true`：私有的，不会被发布，是管理整个项目，与要发布的 npm 包解耦。详细可参考[这里](https://github.com/stereobooster/package.json#private)。
 
 配置完成之后是是这个样子：
 
