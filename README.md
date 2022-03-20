@@ -4,7 +4,7 @@
 
 ## 前言
 
-随着 `pnpm` 的出现，目前又出现了一种新生的项目结构，叫 [monorepos](https://fanyi.baidu.com/#mlt/en/monorepo)。
+随着 `pnpm` 的出现，目前又出现了一种新生的项目结构，叫 `monorepos`。
 
 这篇文章将带着大家从 0 开始构建一个简易的 `monorepos` 项目。
 
@@ -215,7 +215,6 @@ npm init vite vue-demo3
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"
   },
-  "workspaces": ["packages/*"],
   "license": "ISC"
 }
 ```
@@ -241,7 +240,6 @@ npm init vite vue-demo3
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"
   },
-  "workspaces": ["packages/*"],
   "license": "ISC"
 }
 ```
