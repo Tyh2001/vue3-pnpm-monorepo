@@ -97,17 +97,15 @@ pnpm init -y
 }
 ```
 
-先将一些没用的配置项删掉，再新增以下两项配置：
+先将一些没用的配置项删掉，再新增以下配置：
 
 ```json
 {
-  "private": true,
-  "workspaces": ["packages/*"]
+  "private": true
 }
 ```
 
-- `"private": true` 的意思是：私有的，不会被发布，是管理整个项目，与要发布的 npm 包解耦
-- `"workspaces": ["packages/*"]` 的意思是：指定 workspaces 路径
+- `"private": true` 的意思是：私有的，不会被发布，是管理整个项目，与要发布的 npm 包解耦。详细可参考[这里](https://github.com/stereobooster/package.json#private)。
 
 配置完成之后是是这个样子：
 
@@ -117,7 +115,6 @@ pnpm init -y
   "version": "1.0.0",
   "private": true,
   "scripts": {},
-  "workspaces": ["packages/*"],
   "license": "ISC"
 }
 ```
