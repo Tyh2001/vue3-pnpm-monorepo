@@ -8,6 +8,7 @@
     "dev:vue-demo3": "vite packages/vue-demo3"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "vue": "^3.2.25"
   },
   "devDependencies": {
