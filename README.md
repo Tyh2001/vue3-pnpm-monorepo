@@ -321,3 +321,7 @@ pnpm i lodash -W
 - [Github](https://github.com/Tyh2001)
 - [官网首页](https://tianyuhao.cn)
 - [vue3-pnpm-monorepo](https://github.com/Tyh2001/vue3-pnpm-monorepo)
+
+## 你需要注意
+
+该仓库可能会不定时更新迭代，部分配置会与文章内容不符，可通过 [历史版本](https://github.com/Tyh2001/vue3-pnpm-monorepo/commits/master) 查看迭代过程。

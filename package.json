@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev:vue-demo1": "vite packages/vue-demo1",
-    "dev:vue-demo2": "vite packages/vue-demo2",
-    "dev:vue-demo3": "vite packages/vue-demo3"
+    "dev:vue-demo1": "pnpm run -C packages/vue-demo1 dev",
+    "dev:vue-demo2": "pnpm run -C packages/vue-demo2 dev",
+    "dev:vue-demo3": "pnpm run -C packages/vue-demo3 dev",
+    "build:vue-demo1": "pnpm run -C packages/vue-demo1 build",
+    "build:vue-demo2": "pnpm run -C packages/vue-demo2 build",
+    "build:vue-demo3": "pnpm run -C packages/vue-demo3 build"
   },
   "dependencies": {
     "lodash": "^4.17.21",

@@ -1,5 +1,9 @@
 {
   "name": "vue-demo2",
   "private": true,
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build"
+  }
 }

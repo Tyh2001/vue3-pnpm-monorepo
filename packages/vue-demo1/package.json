@@ -2,6 +2,10 @@
   "name": "vue-demo1",
   "private": true,
   "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build"
+  },
   "dependencies": {
     "tyh-ui2": "^3.4.3"
   }
