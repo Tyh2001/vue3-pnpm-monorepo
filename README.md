@@ -67,7 +67,7 @@ foo3()
 安装 `pnpm` 命令：
 
 ```shell
-npm i pnpm
+npm i pnpm -g
 ```
 
 ## 初始化项目
