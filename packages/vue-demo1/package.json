@@ -7,6 +7,6 @@
     "build": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
-    "tyh-ui2": "^3.4.3"
+    "fighting-design": "1.0.0-alpha.9"
   }
 }
