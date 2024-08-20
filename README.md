@@ -1,6 +1,6 @@
 # 使用 vue3 + pnpm 从 0 搭建 monorepo 项目
 
-大家好，我是[田同学](https://github.com/Tyh2001)。一位开源组件库作者，有兴趣可以加我微信：`VirgoTyh`，一起共同学习。
+大家好，我是[田同学](https://github.com/Tyh2001)。一位开源组件库作者，有兴趣可以加我微信：`T2000000000000000001`，一起共同学习。
 
 ## 前言
 
@@ -317,7 +317,7 @@ pnpm i lodash -W
 
 你可以通过下面方式联系到我：
 
-- 微信：`VirgoTyh`
+- 微信：`T2000000000000000001`
 - [Github](https://github.com/Tyh2001)
 - [官网首页](https://tianyuhao.cn)
 - [vue3-pnpm-monorepo](https://github.com/Tyh2001/vue3-pnpm-monorepo)
