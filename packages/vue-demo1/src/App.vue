@@ -3,8 +3,9 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import { isNumber } from '@vue3-pnpm-monorepo/my-utils'
-
+import {isBoolean} from '@vue3-pnpm-monorepo/my-utils'
 console.log(isNumber('123'))
+console.log(isBoolean(true))
 </script>
 
 <template>

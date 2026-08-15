@@ -5,5 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.3",
+    "element-plus": "^2.14.4"
   }
 }

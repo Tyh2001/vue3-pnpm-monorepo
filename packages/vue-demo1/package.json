@@ -7,6 +7,10 @@
     "build": "vue-tsc --noEmit && vite build"
   },
   "dependencies": {
+    "vue": "^3.4.3",
     "fighting-design": "1.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "@vue3-pnpm-monorepo/my-utils": "workspace:*"
   }
 }

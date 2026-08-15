@@ -6,5 +6,10 @@
   "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.3",
+    "lodash": "^4.17.21",
+    "axios": "^1.7.7"
+  }
 }

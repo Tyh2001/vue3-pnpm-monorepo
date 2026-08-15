@@ -8,18 +8,16 @@
     "dev:vue-demo3": "pnpm run -C packages/vue-demo3 dev",
     "build:vue-demo1": "pnpm run -C packages/vue-demo1 build",
     "build:vue-demo2": "pnpm run -C packages/vue-demo2 build",
-    "build:vue-demo3": "pnpm run -C packages/vue-demo3 build"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "vue": "^3.4.3"
+    "build:vue-demo3": "pnpm run -C packages/vue-demo3 build",
+    "check:deps": "node scripts/check-deps.js",
+    "fix:deps": "node scripts/auto-install-deps.js"
   },
   "devDependencies": {
-    "@vue3-pnpm-monorepo/my-utils": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
-    "typescript": "^4.7.4",
+    "@vue3-pnpm-monorepo/my-utils": "workspace:*",
+    "typescript": "^5.7.2",
     "vite": "^4.3.9",
-    "vue-tsc": "^1.8.0"
+    "vue-tsc": "^2.2.0"
   },
   "license": "MIT"
 }
