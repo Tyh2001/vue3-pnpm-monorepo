@@ -1,0 +1,37 @@
+name: Dependency Check
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  deps-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check lockfile consistency
+        run: pnpm install --frozen-lockfile
+
+      - name: Check for duplicate dependency versions
+        run: pnpm list -r --depth 0
+
+      - name: Check dependencies
+        run: node scripts/check-deps.js
